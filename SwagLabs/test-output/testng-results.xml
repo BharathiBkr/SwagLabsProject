@@ -1,33 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-28T11:07:11 IST" name="Swag Labs Test Suite" finished-at="2023-01-28T11:07:13 IST" duration-ms="1913">
+  <suite started-at="2023-02-10T11:33:52 IST" name="Swag Labs Test Suite" finished-at="2023-02-10T11:34:09 IST" duration-ms="17357">
     <groups>
     </groups>
-    <test started-at="2023-01-28T11:07:11 IST" name="Login test case" finished-at="2023-01-28T11:07:13 IST" duration-ms="1503">
-      <class name="swag_testcase.Login_test_cases">
-        <test-method signature="login()[pri:0, instance:swag_testcase.Login_test_cases@1b6e1eff]" started-at="2023-01-28T11:07:11 IST" name="login" finished-at="2023-01-28T11:07:13 IST" duration-ms="1428" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- swag_testcase.Login_test_cases -->
-    </test> <!-- Login test case -->
-    <test started-at="2023-01-28T11:07:13 IST" name="Add To Cart test case" finished-at="2023-01-28T11:07:13 IST" duration-ms="291">
-      <class name="swag_testcase.Add_To_cart_test_cases">
-        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:swag_testcase.Add_To_cart_test_cases@57d7f8ca]" started-at="2023-01-28T11:07:08 IST" name="launchbrowser" finished-at="2023-01-28T11:07:11 IST" duration-ms="3182" status="PASS">
+    <test started-at="2023-02-10T11:33:52 IST" name="Login Page test case" finished-at="2023-02-10T11:34:09 IST" duration-ms="17357">
+      <class name="swag_testcase.Login_page_Test_Case">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:swag_testcase.Login_page_Test_Case@932bc4a]" started-at="2023-02-10T11:33:52 IST" name="launchbrowser" finished-at="2023-02-10T11:33:55 IST" duration-ms="3044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method signature="addcart()[pri:0, instance:swag_testcase.Add_To_cart_test_cases@57d7f8ca]" started-at="2023-01-28T11:07:13 IST" name="addcart" finished-at="2023-01-28T11:07:13 IST" duration-ms="284" status="PASS">
+        <test-method signature="login_Test_case(java.lang.String,java.lang.String)[pri:0, instance:swag_testcase.Login_page_Test_Case@932bc4a]" started-at="2023-02-10T11:33:55 IST" name="login_Test_case" data-provider="excelvalue" finished-at="2023-02-10T11:33:55 IST" duration-ms="532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addcart -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:swag_testcase.Add_To_cart_test_cases@57d7f8ca]" started-at="2023-01-28T11:07:13 IST" name="teardown" finished-at="2023-01-28T11:07:13 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- login_Test_case -->
+        <test-method signature="login_Test_case(java.lang.String,java.lang.String)[pri:0, instance:swag_testcase.Login_page_Test_Case@932bc4a]" started-at="2023-02-10T11:33:55 IST" name="login_Test_case" data-provider="excelvalue" finished-at="2023-02-10T11:33:56 IST" duration-ms="411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Test_case -->
+        <test-method signature="login_Test_case(java.lang.String,java.lang.String)[pri:0, instance:swag_testcase.Login_page_Test_Case@932bc4a]" started-at="2023-02-10T11:33:56 IST" name="login_Test_case" data-provider="excelvalue" finished-at="2023-02-10T11:33:56 IST" duration-ms="311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Test_case -->
+        <test-method signature="login_Test_case(java.lang.String,java.lang.String)[pri:0, instance:swag_testcase.Login_page_Test_Case@932bc4a]" started-at="2023-02-10T11:33:56 IST" name="login_Test_case" data-provider="excelvalue" finished-at="2023-02-10T11:34:01 IST" duration-ms="5331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Test_case -->
+        <test-method signature="login_Test_case(java.lang.String,java.lang.String)[pri:0, instance:swag_testcase.Login_page_Test_Case@932bc4a]" started-at="2023-02-10T11:34:01 IST" name="login_Test_case" data-provider="excelvalue" finished-at="2023-02-10T11:34:02 IST" duration-ms="328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sfffyrgfygry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Test_case -->
+        <test-method signature="login_Test_case(java.lang.String,java.lang.String)[pri:0, instance:swag_testcase.Login_page_Test_Case@932bc4a]" started-at="2023-02-10T11:34:02 IST" name="login_Test_case" data-provider="excelvalue" finished-at="2023-02-10T11:34:02 IST" duration-ms="333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sfffyrgfygry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Test_case -->
+        <test-method signature="login_Test_case(java.lang.String,java.lang.String)[pri:0, instance:swag_testcase.Login_page_Test_Case@932bc4a]" started-at="2023-02-10T11:34:02 IST" name="login_Test_case" data-provider="excelvalue" finished-at="2023-02-10T11:34:02 IST" duration-ms="316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sfffyrgfygry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Test_case -->
+        <test-method signature="login_Test_case(java.lang.String,java.lang.String)[pri:0, instance:swag_testcase.Login_page_Test_Case@932bc4a]" started-at="2023-02-10T11:34:02 IST" name="login_Test_case" data-provider="excelvalue" finished-at="2023-02-10T11:34:03 IST" duration-ms="320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sfffyrgfygry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Test_case -->
+        <test-method signature="login_Test_case(java.lang.String,java.lang.String)[pri:0, instance:swag_testcase.Login_page_Test_Case@932bc4a]" started-at="2023-02-10T11:34:03 IST" name="login_Test_case" data-provider="excelvalue" finished-at="2023-02-10T11:34:03 IST" duration-ms="339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Test_case -->
+        <test-method signature="login_Test_case(java.lang.String,java.lang.String)[pri:0, instance:swag_testcase.Login_page_Test_Case@932bc4a]" started-at="2023-02-10T11:34:03 IST" name="login_Test_case" data-provider="excelvalue" finished-at="2023-02-10T11:34:03 IST" duration-ms="327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Test_case -->
+        <test-method signature="login_Test_case(java.lang.String,java.lang.String)[pri:0, instance:swag_testcase.Login_page_Test_Case@932bc4a]" started-at="2023-02-10T11:34:03 IST" name="login_Test_case" data-provider="excelvalue" finished-at="2023-02-10T11:34:04 IST" duration-ms="301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Test_case -->
+        <test-method signature="login_Test_case(java.lang.String,java.lang.String)[pri:0, instance:swag_testcase.Login_page_Test_Case@932bc4a]" started-at="2023-02-10T11:34:04 IST" name="login_Test_case" data-provider="excelvalue" finished-at="2023-02-10T11:34:09 IST" duration-ms="5312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Test_case -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:swag_testcase.Login_page_Test_Case@932bc4a]" started-at="2023-02-10T11:34:09 IST" name="teardown" finished-at="2023-02-10T11:34:09 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- swag_testcase.Add_To_cart_test_cases -->
-    </test> <!-- Add To Cart test case -->
+      </class> <!-- swag_testcase.Login_page_Test_Case -->
+    </test> <!-- Login Page test case -->
   </suite> <!-- Swag Labs Test Suite -->
 </testng-results>

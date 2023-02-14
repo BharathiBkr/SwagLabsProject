@@ -18,8 +18,14 @@ import javax.imageio.ImageIO;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class Common_Functions {
@@ -31,7 +37,7 @@ public class Common_Functions {
 		property.load(filesteam);
 		return property;	
 	}
-	@BeforeSuite
+	@BeforeTest
 	public void launchbrowser() throws IOException {
 		getproperty();
 		String driverloaction=property.getProperty("driverlocation");
@@ -51,7 +57,7 @@ public class Common_Functions {
 		driver.manage().window().maximize();
 	}
 	
-	@AfterSuite
+	@AfterTest
 	public void teardown() {
 		//driver.quit();
 		

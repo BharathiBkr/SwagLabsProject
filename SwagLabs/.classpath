@@ -10,5 +10,6 @@
 	<classpathentry kind="lib" path="D:/Jars and Softwares/Apache Jar/poi-bin-5.2.3-20220909/poi-bin-5.2.3/lib/commons-io-2.11.0.jar"/>
 	<classpathentry kind="lib" path="D:/Jars and Softwares/Apache Jar/poi-bin-5.2.3-20220909/poi-bin-5.2.3/lib/log4j-api-2.18.0.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Jars and Softwares/JXL Jar/jar_files/jxl-2.6.12.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
